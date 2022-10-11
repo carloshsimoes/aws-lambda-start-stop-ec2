@@ -7,7 +7,7 @@ Da forma como foi configurada a Lambda, na mesma Lambda poderá executar os flux
 
 &nbsp;
 
-# Para configurar a Lambda, informar as especificações do Runtime e ENVs:
+# Para configurar a Lambda, informar as especificações do Runtime:
 
 ## Runtime Settings
 
