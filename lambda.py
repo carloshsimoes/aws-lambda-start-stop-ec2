@@ -21,12 +21,6 @@ def stopEc2Instance(envAwsRegion, envAwsInstancesIds):
 
 def handler(event, context):
 
-    # {
-        # "action": "start",
-        # "instances": ["i-0a830f717feabacfb"],
-        # "region": "sa-east-1"
-    # }
-
     try:
 
         action = event.get("action", None)
