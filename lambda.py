@@ -42,5 +42,5 @@ def handler(event, context):
 
     except Exception as e:
         return {
-            "message": "Error to execute action start/stop EC2 Instance"
+            "error": e
         }
