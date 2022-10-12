@@ -45,7 +45,7 @@ Uma vez que a Lambda precisa ter permissão para performar as ações de Start e
 
 Será necessário somente criar 2 Triggers, EventBridge (CloudWatch Events), com os agendamentos CRON desejados (ex: StartEC2, StopEC2).
 
-Na criação do Event, além da expressão CRON em Event Schedule, em Targer especificar o `input constant`, o objeto/JSON correspondente.
+Na criação do Event, além da expressão CRON em Event Schedule, em Target especificar o `input constant`, o objeto/JSON correspondente.
 
 No objeto/JSON, deverão ser definidos:
 
